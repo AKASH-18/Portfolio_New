@@ -7,8 +7,8 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1553531888-a9f9e79a9966?q=80&w=1200&auto=format&fit=crop",
     tags: ["React", "Firebase", "Redux", ""],
-    url: "https://github.com/AKASH-18/Netflix",
-    repo: "https://akashneetflix.netlify.app/",
+    url: "https://akashneetflix.netlify.app/",
+    repo: "https://github.com/AKASH-18/Netflix",
   },
   {
     slug: "Food Delivery",

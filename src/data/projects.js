@@ -7,8 +7,8 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1553531888-a9f9e79a9966?q=80&w=1200&auto=format&fit=crop",
     tags: ["React", "Firebase", "Redux", ""],
-    url: "#",
-    repo: "#",
+    url: "https://github.com/AKASH-18/Netflix",
+    repo: "https://akashneetflix.netlify.app/",
   },
   {
     slug: "Food Delivery",
@@ -27,8 +27,8 @@ const projects = [
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/codeviewer.png?raw=true",
     tags: ["React", "Tool"],
-    url: "#",
-    repo: "#",
+    url: "https://akash-18.github.io/codeviewer/",
+    repo: "https://github.com/AKASH-18/codeviewer",
   },
   {
     slug: "github-finder",
@@ -37,8 +37,8 @@ const projects = [
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/Github%20Profile%20Finder.png?raw=true",
     tags: ["API", "React"],
-    url: "#",
-    repo: "#",
+    url: "https://git-proffinder.netlify.app/",
+    repo: "https://github.com/AKASH-18/Github-Profile-Finder",
   },
   {
     slug: "todo-app",
@@ -57,8 +57,8 @@ const projects = [
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/rockpaperscissor.png?raw=true",
     tags: ["Game"],
-    url: "#",
-    repo: "#",
+    url: "https://akash-18.github.io/Rock-Paper-Scissor/",
+    repo: "https://github.com/AKASH-18/Rock-Paper-Scissor",
   },
 
   {
@@ -68,8 +68,8 @@ const projects = [
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/calculator.png?raw=true",
     tags: ["JS", "UI"],
-    url: "#",
-    repo: "#",
+    url: "https://projextcalculator.netlify.app/",
+    repo: "https://github.com/AKASH-18/CALCULATOR-",
   },
   {
     slug: "notes",

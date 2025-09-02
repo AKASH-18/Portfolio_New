@@ -1,40 +1,45 @@
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 
-export default function About(){
+export default function About() {
   const cardVariants = {
     hidden: { opacity: 0, y: 40, rotateX: -10 },
-    show: { opacity: 1, y: 0, rotateX: 0 }
-  }
+    show: { opacity: 1, y: 0, rotateX: 0 },
+  };
 
   const data = [
     {
       title: "Skills",
-      items: ["HTML, CSS, JavaScript", "React, Vite", "Adobe Photoshop", "Bootstrap"],
-      icon: "💻"
+      items: ["HTML, CSS, JavaScript", "React.js,", "Tailwind", "Bootstrap"],
+      icon: "💻",
     },
     {
       title: "Experience",
       items: [
-        "BSNL — Networking & Cyber Security",
-        "Insergo Tech — Web Dev",
-        "Slog Solution — Python Training"
+        "BSNL ",
+        "— Networking & Cyber Security",
+        "Insergo Tech",
+        "— Web Dev",
+        "Slog Solution ",
+        "— Python Training",
       ],
-      icon: "🛠"
+      icon: "🛠",
     },
     {
       title: "Education",
       items: [
-        "B.Tech (2018–2022) — GBP Institute of Engineering & Technology",
-        "Kendriya Vidyalaya Pithoragarh — Intermediate & High School"
+        "B.Tech (2018–2022) — ",
+        "G.B.P Institute of Engineering & Technology",
+        "Kendriya Vidyalaya Pithoragarh",
+        "Intermediate & High School",
       ],
-      icon: "🎓"
-    }
-  ]
+      icon: "🎓",
+    },
+  ];
 
   return (
     <section className="section">
       <div className="container">
-        <motion.h2 
+        <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -42,19 +47,21 @@ export default function About(){
         >
           About Me
         </motion.h2>
-        <motion.p 
+        <motion.p
           className="lead text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          I’m a Computer Science graduate who loves crafting clean UIs and delightful UX. Outside of code, I enjoy photography and exploring new places 🌍.
+          I’m a Computer Science graduate who loves crafting clean UIs and
+          delightful UX. Outside of code, I enjoy photography and exploring new
+          places 🌍.
         </motion.p>
 
         <div className="resume">
           {data.map((section, i) => (
-            <motion.div 
-              key={section.title} 
+            <motion.div
+              key={section.title}
               className="about-card card"
               variants={cardVariants}
               initial="hidden"
@@ -65,12 +72,14 @@ export default function About(){
               <div className="icon-circle">{section.icon}</div>
               <h3>{section.title}</h3>
               <ul>
-                {section.items.map(item => <li key={item}>{item}</li>)}
+                {section.items.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
               </ul>
             </motion.div>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }

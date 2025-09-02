@@ -9,28 +9,35 @@ export default function About() {
   const data = [
     {
       title: "Skills",
-      items: ["HTML, CSS, JavaScript", "React.js,", "Tailwind", "Bootstrap"],
+      items: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React.js,",
+        "Tailwind",
+        "Bootstrap",
+      ],
       icon: "💻",
     },
     {
       title: "Experience",
       items: [
         "BSNL ",
-        "— Networking & Cyber Security",
+        " (Networking & Cyber Security)",
         "Insergo Tech",
-        "— Web Dev",
+        "( Web Dev)",
         "Slog Solution ",
-        "— Python Training",
+        "(Python Training)",
       ],
       icon: "🛠",
     },
     {
       title: "Education",
       items: [
-        "B.Tech (2018–2022) — ",
         "G.B.P Institute of Engineering & Technology",
-        "Kendriya Vidyalaya Pithoragarh",
+        "B.Tech (2018–2022) — ",
         "Intermediate & High School",
+        "(Kendriya Vidyalaya Pithoragarh)",
       ],
       icon: "🎓",
     },
@@ -69,7 +76,7 @@ export default function About() {
               transition={{ delay: i * 0.2 }}
               whileHover={{ scale: 1.03 }}
             >
-              <div className="icon-circle">{section.icon}</div>
+              <div className="">{section.icon}</div>
               <h3>{section.title}</h3>
               <ul>
                 {section.items.map((item) => (

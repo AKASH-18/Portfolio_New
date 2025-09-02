@@ -15,7 +15,7 @@ const projects = [
     description: "Simple, clean calculator supporting basic operations.",
     image:
       "https://raw.githubusercontent.com/AKASH-18/Portfolio-Data/refs/heads/main/images/Swiggy.png",
-    tags: ["JS", "UI"],
+    tags: ["React.js ", "CSS"],
     url: "#",
     repo: "#",
   },
@@ -25,7 +25,7 @@ const projects = [
     description: "View and share code snippets in a friendly UI.",
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/codeviewer.png?raw=true",
-    tags: ["React.js", "CSS"],
+    tags: ["HTML5","JavaScript(ES6+)", "CSS"],
     url: "https://akash-18.github.io/codeviewer/",
     repo: "https://github.com/AKASH-18/codeviewer",
   },

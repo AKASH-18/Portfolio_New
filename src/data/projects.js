@@ -2,20 +2,19 @@ const projects = [
   {
     slug: "Netflix-AI",
     title: "Netflix_AI",
-    description:
-      "Classic game: first to get three in a row wins. Built with React.",
+    description: "Movie searching and trailer viewer app .",
     image:
-      "https://images.unsplash.com/photo-1553531888-a9f9e79a9966?q=80&w=1200&auto=format&fit=crop",
-    tags: ["React", "Firebase", "Redux", ""],
-    url: "https://akashneetflix.netlify.app/",
-    repo: "https://github.com/AKASH-18/Netflix",
+      "https://raw.githubusercontent.com/AKASH-18/Portfolio-Data/refs/heads/main/images/Netflix1.png",
+    tags: ["React.js", "Firebase", "Redux", ""],
+    url: "https://netflix-gen-ai.vercel.app/",
+    repo: "https://netflix-gen-ai.vercel.app/",
   },
   {
     slug: "Food Delivery",
     title: "Food Delivery",
     description: "Simple, clean calculator supporting basic operations.",
     image:
-      "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/Github%20Profile%20Finder.png?raw=true",
+      "https://raw.githubusercontent.com/AKASH-18/Portfolio-Data/refs/heads/main/images/Swiggy.png",
     tags: ["JS", "UI"],
     url: "#",
     repo: "#",
@@ -26,7 +25,7 @@ const projects = [
     description: "View and share code snippets in a friendly UI.",
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/codeviewer.png?raw=true",
-    tags: ["React", "Tool"],
+    tags: ["React.js", "CSS"],
     url: "https://akash-18.github.io/codeviewer/",
     repo: "https://github.com/AKASH-18/codeviewer",
   },
@@ -36,7 +35,7 @@ const projects = [
     description: "Search GitHub profiles and view key details.",
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/Github%20Profile%20Finder.png?raw=true",
-    tags: ["API", "React"],
+    tags: ["API", "JavaScript(ES6+)", "HTML", "CSS"],
     url: "https://git-proffinder.netlify.app/",
     repo: "https://github.com/AKASH-18/Github-Profile-Finder",
   },
@@ -46,7 +45,7 @@ const projects = [
     description: "Keep track of tasks and progress.",
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/To%20do%20app.png?raw=true",
-    tags: ["Mobile", "Productivity"],
+    tags: ["JavaScript(ES6+)", "HTML", "CSS"],
     url: "#",
     repo: "#",
   },
@@ -56,7 +55,7 @@ const projects = [
     description: "Play against the computer with fun visuals.",
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/rockpaperscissor.png?raw=true",
-    tags: ["Game"],
+    tags: ["Game", "JavaScript(ES6+)", "HTML", "CSS"],
     url: "https://akash-18.github.io/Rock-Paper-Scissor/",
     repo: "https://github.com/AKASH-18/Rock-Paper-Scissor",
   },
@@ -67,7 +66,7 @@ const projects = [
     description: "Simple, clean calculator supporting basic operations.",
     image:
       "https://github.com/AKASH-18/Portfolio-Data/blob/main/images/calculator.png?raw=true",
-    tags: ["JS", "UI"],
+    tags: ["JavaScript(ES6+)", "HTML", "CSS"],
     url: "https://projextcalculator.netlify.app/",
     repo: "https://github.com/AKASH-18/CALCULATOR-",
   },
